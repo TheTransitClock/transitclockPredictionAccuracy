@@ -1,0 +1,2 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+LINEA 119_Habil_70,1,1,1,1,1,0,0,20170101,20190101

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transitclock>
+    <modules>   
+	<optionalModulesList>org.transitclock.avl.BatchCsvAvlFeedModule</optionalModulesList>
+    </modules>   
+    <autoBlockAssigner>
+		<autoAssignerEnabled>true</autoAssignerEnabled>
+		<ignoreAvlAssignments>false</ignoreAvlAssignments>
+		<allowableEarlySeconds>1200</allowableEarlySeconds>
+		<allowableLateSeconds>1200</allowableLateSeconds>
+    </autoBlockAssigner>
+    <core>
+    	<predictionGeneratorClass>org.transitclock.core.PredictionGeneratorDefaultImpl</predictionGeneratorClass>
+    	
+    	<holdingTimeGeneratorClass></holdingTimeGeneratorClass>
+	<storeTravelTimeStopPathPredictions>false</storeTravelTimeStopPathPredictions>
+	<allowableNumberOfBadMatches>10</allowableNumberOfBadMatches>
+	<layoverDistance>200</layoverDistance>
+	<distanceFromLayoverForEarlyDeparture>50</distanceFromLayoverForEarlyDeparture>
+	<allowableEarlyTimeForEarlyDepartureSecs>600</allowableEarlyTimeForEarlyDepartureSecs>
+	<allowableEarlySeconds>1200</allowableEarlySeconds>
+	<allowableLateSeconds>1200</allowableLateSeconds>
+    </core>
+    <predAccuracy><maxPredTimeMinutes>30</maxPredTimeMinutes></predAccuracy>
+    <avl>
+	<csvAvlFeedFileName>/usr/local/transitclock/config/Linea119/test/data.csv</csvAvlFeedFileName>
+
+	<processInRealTime>false</processInRealTime>
+	
+	<maxHeadingOffsetFromSegment>180</maxHeadingOffsetFromSegment>
+  	
+    </avl>
+    <cache>
+        <daysPopulateHistoricalCache>0</daysPopulateHistoricalCache>
+    </cache>
+		<db>
+		<dbName>Linea119</dbName>
+		<dbHost>127.0.0.1:5432
+		</dbHost>
+		<dbType>postgresql</dbType>
+		<dbUserName>postgres</dbUserName>
+		<dbPassword>transitclock</dbPassword>
+	</db>
+	<hibernate>
+		<configFile>/usr/local/transitclock/config/Linea119/postgres_hibernate.cfg.xml</configFile>
+	</hibernate>
+
+	<web>
+		<mapTileUrl>http://tile.openstreetmap.org/{z}/{x}/{y}.png</mapTileUrl>
+	</web>
+</transitclock>

@@ -1,0 +1,2 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,text_color
+195_591_Linea119,Linea119,195,,195,3,,33cc33,000000

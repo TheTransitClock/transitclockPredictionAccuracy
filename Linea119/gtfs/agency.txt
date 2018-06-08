@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_lang,agency_phone,agency_timezone,agency_url
+Linea119,Linea119,,,America/Santiago,http://www.citymovil.cl

@@ -1,0 +1,11 @@
+route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,block_id,shape_id,wheelchair_accessible
+195_591_Linea119,LINEA 119_Habil_70,195_0_1,,,0,,13333,0
+195_591_Linea119,LINEA 119_Habil_70,195_0_10,,,0,,13333,0
+195_591_Linea119,LINEA 119_Habil_70,195_0_2,,,0,,13333,0
+195_591_Linea119,LINEA 119_Habil_70,195_0_3,,,0,,13333,0
+195_591_Linea119,LINEA 119_Habil_70,195_0_4,,,0,,13333,0
+195_591_Linea119,LINEA 119_Habil_70,195_0_5,,,0,,13333,0
+195_591_Linea119,LINEA 119_Habil_70,195_0_6,,,0,,13333,0
+195_591_Linea119,LINEA 119_Habil_70,195_0_7,,,0,,13333,0
+195_591_Linea119,LINEA 119_Habil_70,195_0_8,,,0,,13333,0
+195_591_Linea119,LINEA 119_Habil_70,195_0_9,,,0,,13333,0
